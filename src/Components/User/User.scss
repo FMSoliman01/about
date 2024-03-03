@@ -1,0 +1,279 @@
+:root{
+    --primary-color: #c9ab7c;
+    --secondary-color:#9f7b59;
+    --focus-color: #aaaaaa;
+    --color-bg:rgb(67, 53, 53);
+}
+
+
+body {
+ 
+    // background-color: #ffffff !important;
+    backdrop-filter: blur(7px)  !important;
+    background-color: #f9efdd  !important;  
+    // background-image:url(../../assets/images/background-04.jpg) ;
+    // background: linear-gradient(to bottom,rgb(241, 236, 233),white,rgb(241, 236, 233));
+
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+   
+    height:98vh;
+   
+}
+.save{
+  margin-left:-900px; 
+  margin-top: -100px;
+  width:300px !important;
+  
+}
+.ui-w-80 {
+    width : 150px !important;
+    height: auto;
+    border-radius: 50%;
+ 
+}
+input{
+    border-radius: 20px !important;  
+    margin-bottom: 8px !important;
+   
+  
+}
+.myinput{
+    width:70% !important;
+}
+input:focus,input:hover{
+   outline: 2px solid var(--secondary-color) !important;
+   border: 1px solid var(--secondary-color) !important;
+}
+.bg-side{
+    // background-color: var(--secondary-color) !important;
+    font-size: 17px;
+    width: 190px !important;
+    height: 90vh;
+    // background: linear-gradient(to bottom, var(--secondary-color),var(--primary-color) ,var(--secondary-color));
+    background-color: var(--secondary-color) !important;
+}
+.Sidebar{
+   font-weight: bold;
+    color:rgb(221, 209, 199) !important;
+    width:178px !important;
+    background-color: #9f7b5926 !important;
+    background-color: var(--secondary-color) !important;
+    // background: linear-gradient(to bottom, var(--secondary-color),var(--primary-color) ,var(--secondary-color));
+    // background: linear-gradient(to bottom, rgb(70, 41, 8),var(--secondary-color) ,rgb(70, 41, 8));
+
+}
+.btn-default {
+    border-color: rgba(24, 28, 33, 0.1);
+    background  : rgba(0, 0, 0, 0);
+    font-weight: bold !important;
+    color: rgb(244, 230, 207) !important;
+}
+.eye{
+    margin-left: 10px;
+    border:1px solid var(--secondary-color) !important;
+    color:var(--secondary-color) !important;
+
+}
+.eye:hover{
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+}
+.btn-default:hover{
+    color:var(--primary-color) !important;
+}
+.firstbar{
+    background: linear-gradient(to bottom, rgb(70, 41, 8),var(--secondary-color) ,rgb(70, 41, 8)) !important;
+   
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+label{
+    font-weight: bold;
+    color: var(--secondary-color) !important;
+    font-style:italic;
+}
+textarea{
+    height: 120px !important;
+}
+.btn-outline-primary {
+    border-color: var(--primary-color) !important;
+    background  : transparent;
+    color       : var(--primary-color) !important;
+    border-radius: 10px !important;
+    height: 30px;
+    font-weight: bold !important;
+    font-size: 12px !important;
+   
+}
+.gender{
+    display: flex;
+    margin-left: 460px;
+    margin-top: -90px;
+}
+.radio{
+  color: #9f7b59;
+   margin-left:10px;
+   margin-top: 7px;
+   margin-right: 25px;
+  
+  
+ }
+ .radio:hover,.radio2:hover, .radio:focus,.radio2:focus,.radio:checked{
+    border: 0px  !important;
+    outline: 0px !important;
+    color:  black !important;
+    background-color: #9f7b59 !important;
+    
+ }
+.radio2{
+  
+    margin-left: 10px;
+    margin-top: 7px;
+    
+}
+
+
+/* Style the radio button when it's checked */
+input[type="radio"]:checked {
+    background-color: #0f141a !important; /* Change the background color */
+    border-color: #007bff; /* Change the border color */
+}
+
+.addimgbtn{
+    border-color:1px solid var(--primary-color) !important;
+    background-color: var(--primary-color)!important;
+    color       : rgb(126, 101, 64) !important;
+    border-radius: 50% !important;
+    height: 30px;
+    width: 30px;
+    font-weight: bold !important;
+    font-size: 28px !important; 
+    margin-top: -40px;
+    margin-left: 60px;
+
+}
+.plusbtn{
+    margin-top: -11px;
+    margin-left: -8px;
+    font-weight: bold;
+
+}
+.btn-dark{
+    border-radius: 10px ;
+    background-color:var(--secondary-color) !important;
+    border:2px solid var(--secondary-color) !important;
+    margin-left: 940px;
+   
+}
+.btn-outline-primary:hover,.btn-dark:hover{
+    background-color: var(--primary-color) !important;
+    color:rgb(244, 242, 240) !important;
+    border:2px solid var(--primary-color) !important;
+}
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.btn-facebook,.btn-twitter {
+    border-color: rgba(0, 0, 0, 0);
+    background  : hsl(30, 46%, 90%) !important;
+    color       : var(--secondary-color) !important;
+}
+
+.btn-instagram {
+    border-color: rgba(235, 22, 22, 0);
+    background  : hsl(30, 46%, 90%) !important;
+    color       : var(--secondary-color) !important;
+}
+
+.card {
+    // margin-top: 30px !important;
+    // border: 2px solid var(--secondary-color) !important;
+    background-clip: padding-box;
+    // border-radius: 100px  10px !important;
+    background-color: #fbf9f7 !important;
+    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
+    height: 80vh !important;
+    width: 1150px;
+    // width:1600px ;
+    margin: 5px auto 0 ;
+  
+}
+.body-card{
+ display: grid;
+ grid-template-columns:420px 420px  ;
+ gap: 10px 30px;
+ margin-top: -25px;
+
+}
+
+.row-bordered {
+    overflow: hidden;
+    
+}
+.alert{
+    background-color: #fbf4ea !important;
+}
+.account-settings-fileinput {
+    position  : absolute;
+    visibility: hidden;
+    width     : 1px;
+    height    : 1px;
+    opacity   : 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 91, 173, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: var(--primary-color) !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+    color: var(--primary-color) !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: var(--secondary-color) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+    color: var(--primary-color) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: rgb(238, 231, 228) !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: var(--secondary-color) !important;
+}
